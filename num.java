@@ -5,16 +5,11 @@ public class num
 public static void main(string args[])
 {
 Scanner scan=new Scan(System.in);
+  int sum=0;
 int a=scan.nextInt();
-for(i=0;i<n;i++)
+for(i=0;i<a;i++)
 {
-if(a[i]>=0)
-{
-System.out.println(sum);
-}
-else
-{
-System.out.println();
+sum=sum+i;
 }
 }
 }
